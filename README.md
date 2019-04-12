@@ -32,4 +32,4 @@ ausführen. Dabei werden folgende Dateien im Ordner /PLACE_YOUR_FILES_HERE erzeu
 * DATEINAME_evaluation.txt: Hier ﬁndet man die Evaluationsergebnisse (existiert nur, falls DATEINAME_Ground_Truth.txt existiert).
 
 # Danksagung
-Herzlichsten Dank an Fabian der Vogel für tolle Mitarbeit an diesem Projekt.
+Herzlichsten Dank an Fabian Vogel für tolle Mitarbeit an diesem Projekt.
