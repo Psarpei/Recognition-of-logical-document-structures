@@ -22,7 +22,6 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
 ## Project
-**Results**
 The model is able to recognizing the followig logical dokument structures
 * ```(t``` - text start
 * ```(s``` - sentence start
@@ -31,10 +30,10 @@ The model is able to recognizing the followig logical dokument structures
 * ```(c``` - char start
 * ```)``` end of logical document structure
 * ```Ti``` - sentence/segment depth will be measured recursive 
-### Training
-<img align="center" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
-### Test
-<img align="center" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Test_example2.png">
+### Training Results
+<img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
+### Validation Results
+<img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Test_example2.png">
 **Prediction**
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
