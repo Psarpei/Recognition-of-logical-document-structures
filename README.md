@@ -1,4 +1,4 @@
-# Recognizing Logical Document Structures
+# Recognition Of Logical Document Structures
 Rocognition of logical document structures based on [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/). 
 
 This work is the preliminary work of the paper [Recognizing Sentence-level Logical Document Structures with the Help of
