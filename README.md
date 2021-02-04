@@ -34,11 +34,12 @@ The model is able to recognizing the followig logical dokument structures
 ### Example
 The sentence
     
-<center> Georg Bendemann, ein junger Kaufmann,  saß in seinem Privatzimmer im ersten Stock eines der niedrigen leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen.</center>
+```Georg Bendemann, ein junger Kaufmann,  saß in seinem Privatzimmer im ersten Stock eines der niedrigen leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen.```
 
 should be predicted as
     
-<center> (s (seg (w Georg) (w Bendemann) (c ,)) (seg (w ein) (w junger) (w Kaufmann) (c ,)) (seg (w saß) (w in) (w seinem) (w Privatzimmer) (w im) (w ersten) (w Stock) (w eines) (w der) (w niedrigen) (c ,)) (seg (w leichtgebauten) (w Häuser) (c ,)) (seg (w die) (w entlang) (w des) (w Flusses) (w in) (w einer) (w langen) (w Reihe) (c ,)) (seg (w fast) (w nur) (w in) (w der) (w Höhe) (w und) (w Färbung) (w unterschieden) (c ,)) (seg (w sich) (w hinzogen) (c .))) </center>  
+```(s (seg (w Georg) (w Bendemann) (c ,)) (seg (w ein) (w junger) (w Kaufmann) (c ,)) (seg (w saß) (w in) (w seinem) (w Privatzimmer) (w im) (w ersten) (w Stock) (w``` ```eines) (w der) (w niedrigen) (c ,)) (seg (w leichtgebauten) (w Häuser) (c ,)) (seg (w die) (w entlang) (w des) (w Flusses) (w in) (w einer) (w langen) (w Reihe) (c```
+```,)) (seg (w fast) (w nur) (w in) (w der) (w Höhe) (w und) (w Färbung) (w unterschieden) (c ,)) (seg (w sich) (w hinzogen) (c .))) </center> ```
 
 ### Training Results
 <img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
