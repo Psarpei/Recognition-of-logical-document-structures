@@ -3,7 +3,7 @@ Rocognition of logical document structures based on [recurrent neural network gr
 
 This work is the preliminary work of the paper [Recognizing Sentence-level Logical Document Structures with the Help of
 Context-free Grammars](https://arxiv.org/abs/1602.07776) 
-
+## General Information
 <img align="right" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Logo-Goethe-University-Frankfurt-am-Main.svg">;
 
 **Instructors:**
@@ -18,13 +18,13 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 * Fabian Vogel
 * Pascal Fischer
 
-# Configuration
+** Configuration
 Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
-# Prediction
+** Prediction
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
-# Anleitung
+** Anleitung
 In following DATANAME is a free selectable name. 
 
 There are to options to make a prediction:
