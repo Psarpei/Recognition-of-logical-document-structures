@@ -19,8 +19,8 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 * Fabian Vogel
 * Pascal Fischer
 
-# Konfiguration
-Für Vorraussetzungen sowie die Konfigurierung schauen sie bitte hier: https://github.com/clab/rnng
+# Configuration
+Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
 # Prediction
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
