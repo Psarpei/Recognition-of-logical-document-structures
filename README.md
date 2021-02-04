@@ -11,33 +11,38 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 * [Prof. Dr. Alexander Mehler](https://www.texttechnologylab.org/team/alexander-mehler/), email: mehler@em.uni-frankfurt.de
 * [Dr. Wahed Hemati](https://www.texttechnologylab.org/team/wahed-hemati/), email: hemati@em.uni-frankfurt.de
 
+**Institutions:**
+* **[Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)**
+* **[TTLab - Text Technology Lab](https://www.texttechnologylab.org/)**
+
+**Project team:**
+* Fabian Vogel
+* Pascal Fischer
+
 # Konfiguration
 Für Vorraussetzungen sowie die Konfigurierung schauen sie bitte hier: https://github.com/clab/rnng
 
-# Vorhersagen
-Das Modell kann die Ausgabe im gewöhnlichen rnng Ausgabe Format wie in example_predict.txt, oder in einem XML-Format wie in example_XML.tei generieren.
+# Prediction
+The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
 # Anleitung
-DATEINAME ist ein frei wählbarer Name. Um eine Vorhersage treﬀen zu lassen, gibt es zwei Möglichkeiten:
+In following DATANAME is a free selectable name. 
 
-* Man hat die Ground Truth eines Textes zur Verfügungund möchte sowohl die Vorhersage als .tei Datei bekommen, als auch die Evaluation dazu. Dafürmuss man die Ground Truth in der Datei ”DATEINAME_Ground_Truth.txt” gespeichert haben. 
-* Man möchte einfach nur die Vorhersage eines Textes sehen. Dafür muss der Text in der Datei ”
-DATEINAME.txt gespeichert sein.
+There are to options to make a prediction:
+* You have the ground truth of a text and you want to predict the rnng-output as .tei file as well as the evaluation. For this you have to save your ground_truth data as DATANAME_Ground_Truth.text.
+* You only want to predict the rnng-output. For this you have to save your text in the file DATANAME.txt as plain text.
 
-In beiden Fällen müssen die Dateien im Verzeichnis /PLACE_YOUR_FILES_HERE gespeichert werden. 
+In both cases you have to save your files in the directory /PLACE_YOUR_FILES_HERE
 
-Um nun Vorhersagen zu treﬀen (und Evaluationsergebnisse zu erlangen), muss man lediglich mit der Konsole in den selben Dateipfad wie die predict.sh navigieren und den Befehl:
+To make a prediciton (and get the evaluation results) you only have to navigate to the directory of the predict.sh file and execute 
 
     ./predict.sh DATEINAME 
 
-ausführen. Dabei werden folgende Dateien im Ordner /PLACE_YOUR_FILES_HERE erzeugt:
+The following files are generated in the /PLACE_YOUR_FILES_HERE directory
 
-* DATEINAME_graminput.txt: Diese Datei wird in das RNNG eingegeben. 
-* DATEINAME_predict.txt: Hier ist die Vorhersage im Grammatikformat enthalten.
-* DATEINAME.tei: Diese Datei ist die ﬁnale Ausgabe, die den vorhergesagten Text im .tei-Format enthält.
-* DATEINAME.txt: Hier wird (falls noch nicht vorhanden) der reine Eingabetext ohne Grammatikformat gespeichert.
-* DATEINAME_Ground_Truth.txt: Diese Datei existiert nur, wenn man eine Ground Truth zur Verfügung und hier abgespeichert hat.
-* DATEINAME_evaluation.txt: Hier ﬁndet man die Evaluationsergebnisse (existiert nur, falls DATEINAME_Ground_Truth.txt existiert).
-
-# Danksagung
-Herzlichsten Dank an Fabian Vogel für tolle Mitarbeit an diesem Projekt.
+* DATEINAME_graminput.txt: The rnng input file 
+* DATEINAME_predict.txt: The precition in grammar format.
+* DATEINAME.tei: This is the final rnng out file which contains the prediction in .tei format.
+* DATEINAME.txt: The purely input text without grammar format is saved here (if not available).
+* DATEINAME_Ground_Truth.txt: This file only exists if, you saved a ground truth file here.
+* DATEINAME_evaluation.txt: Here you can find the evaluation results (this file only exists if you have saved a ground truth file).
