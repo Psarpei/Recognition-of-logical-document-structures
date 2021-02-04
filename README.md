@@ -19,6 +19,7 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 * Pascal Fischer
 
 **Configuration**
+
 Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
 ## Project
