@@ -1,27 +1,27 @@
-# RECOGNITION OF LOGICAL DOCUMENT STRUCTURES
+# Recognition of logical document structures
 Rocognition of logical document structures based on [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/). 
 
 This work is the preliminary work of the paper [Recognizing Sentence-level Logical Document Structures with the Help of
 Context-free Grammars](https://arxiv.org/abs/1602.07776) 
-## GENERAL INFORMATION
+## General information
 <img align="right" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Logo-Goethe-University-Frankfurt-am-Main.svg">
 
-**INSTRUCTORS**
+**Instructors**
 * [Prof. Dr. Alexander Mehler](https://www.texttechnologylab.org/team/alexander-mehler/), email: mehler@em.uni-frankfurt.de
 * [Dr. Wahed Hemati](https://www.texttechnologylab.org/team/wahed-hemati/), email: hemati@em.uni-frankfurt.de
 
-**INSTITUTIONS**
+**Institutions**
 * **[Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)**
 * **[TTLab - Text Technology Lab](https://www.texttechnologylab.org/)**
 
-**PROJECT TEAM**
+**Project team**
 * Fabian Vogel
 * Pascal Fischer
 
-**CONFIGURATION**
+**Configuration**
 Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
-## PROJECT
+## Project
 The model is able to recognizing the followig logical dokument structures
 * ```(t``` - text start
 * ```(s``` - sentence start
@@ -31,7 +31,7 @@ The model is able to recognizing the followig logical dokument structures
 * ```)``` end of logical document structure
 * ```Ti``` - sentence/segment depth will be measured recursive 
 
-**EXAMPLE**
+**Example**
 
 The sentence
     
@@ -41,15 +41,15 @@ should be predicted as
     
 ```(s (seg (w Georg) (w Bendemann) (c ,)) (seg (w ein) (w junger) (w Kaufmann) (c ,)) (seg (w saß) (w in) (w seinem) (w Privatzimmer) (w im) (w ersten) (w Stock) (w eines) (w der) (w niedrigen) (c ,)) (seg (w leichtgebauten) (w Häuser) (c ,)) (seg (w die) (w entlang) (w des) (w Flusses) (w in) (w einer) (w langen) (w Reihe) (c,)) (seg (w fast) (w nur) (w in) (w der) (w Höhe) (w und) (w Färbung) (w unterschieden) (c ,)) (seg (w sich) (w hinzogen) (c .)))```
 
-**TRAINING RESULTS**
+**Training results**
 
 <img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
 
-**VALIDATION RESULTS**
+**Vaidation results**
 
 <img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Test_example2.png">
 
-**PREDICTION**
+**Prediction**
 
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
