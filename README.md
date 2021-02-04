@@ -1,4 +1,4 @@
-# Recognizing-logical-document-structures
+# Recognizing Logical Document Structures
 Rocognition of logical document structures based on [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/). 
 
 This work is the preliminary work of the paper [Recognizing Sentence-level Logical Document Structures with the Help of
@@ -21,7 +21,21 @@ Context-free Grammars](https://arxiv.org/abs/1602.07776)
 **Configuration**
 Take a look here for the correct conifuration [recurrent neural network grammars](https://arxiv.org/abs/1602.07776/)
 
-## Prediction
+## Project
+**Results**
+The model is able to recognizing the followig logical dokument structures
+* ```(t``` - text start
+* ```(s``` - sentence start
+* ```(seg``` - segment start
+* ```(w``` - word start
+* ```(c``` - char start
+* ```)``` end of logical document structure
+* ```Ti``` - sentence/segment depth will be measured recursive 
+### Training
+<img align="center" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
+### Test
+<img align="center" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Test_example2.png">
+**Prediction**
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
 In following ```DATANAME``` is a free selectable name. 
@@ -39,7 +53,7 @@ To make a prediciton (and get the evaluation results) you only have to navigate 
 The following files are generated in the ```/PLACE_YOUR_FILES_HERE directory```
 
 * ```DATEINAME_graminput.txt```: The rnng input file 
-* ```DATEINAME_predict.txt```: The precition in grammar format.
+* ```DATEINAME_predict.txt```: The prediction in grammar format.
 * ```DATEINAME.tei```: This is the final rnng out file which contains the prediction in .tei format.
 * ```DATEINAME.txt```: The purely input text without grammar format is saved here (if not available).
 * ```DATEINAME_Ground_Truth.txt```: This file only exists if, you saved a ground truth file here.
