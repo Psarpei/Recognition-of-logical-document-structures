@@ -32,7 +32,7 @@ There are to options to make a prediction:
 * You have the ground truth of a text and you want to predict the rnng-output as .tei file as well as the evaluation. For this you have to save your ground_truth data as DATANAME_Ground_Truth.text.
 * You only want to predict the rnng-output. For this you have to save your text in the file DATANAME.txt as plain text.
 
-In both cases you have to save your files in the directory /PLACE_YOUR_FILES_HERE
+In both cases you have to save your files in the directory >/PLACE_YOUR_FILES_HERE
 
 To make a prediciton (and get the evaluation results) you only have to navigate to the directory of the predict.sh file and execute 
 
