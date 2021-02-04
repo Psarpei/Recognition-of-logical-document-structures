@@ -36,7 +36,7 @@ To make a prediciton (and get the evaluation results) you only have to navigate 
 
     ./predict.sh DATEINAME 
 
-The following files are generated in the /PLACE_YOUR_FILES_HERE directory
+The following files are generated in the ```/PLACE_YOUR_FILES_HERE directory```
 
 * ```DATEINAME_graminput.txt```: The rnng input file 
 * ```DATEINAME_predict.txt```: The precition in grammar format.
