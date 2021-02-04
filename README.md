@@ -15,8 +15,8 @@ Context-free Grammars](https://www.aclweb.org/anthology/2020.lrec-1.650.pdf)
 * **[TTLab - Text Technology Lab](https://www.texttechnologylab.org/)**
 
 **Project team**
-* Fabian Vogel
-* Pascal Fischer
+* [Fabian Vogel](https://github.com/legnaib)
+* [Pascal Fischer](https://github.com/Psarpei)
 
 **Configuration**
 
