@@ -30,10 +30,13 @@ The model is able to recognizing the followig logical dokument structures
 * ```(c``` - char start
 * ```)``` end of logical document structure
 * ```Ti``` - sentence/segment depth will be measured recursive 
+
 ### Training Results
 <img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Train_example2.png">
+
 ### Validation Results
 <img align="center" width="500" height="" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Test_example2.png">
+
 **Prediction**
 The model is able to predict the output in the usually format like in example_predict.txt. or in the .xml format like in example_XML.tei.
 
