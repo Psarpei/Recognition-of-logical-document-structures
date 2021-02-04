@@ -23,7 +23,7 @@ Context-free Grammars](https://www.aclweb.org/anthology/2020.lrec-1.650.pdf)
 Take a look here for the correct conifuration [recurrent neural network grammars](https://github.com/clab/rnng)
 
 ## Project
-The model is able to recognizing the followig logical dokument structures
+The model is able to recognizing the followig logical document structures
 * ```(t``` - text start
 * ```(s``` - sentence start
 * ```(seg``` - segment start
