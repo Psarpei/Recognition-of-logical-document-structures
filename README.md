@@ -7,8 +7,8 @@ Context-free Grammars](https://www.aclweb.org/anthology/2020.lrec-1.650.pdf)
 <img align="right" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Logo-Goethe-University-Frankfurt-am-Main.svg">
 
 **Instructors**
-* [Prof. Dr. Alexander Mehler](https://www.texttechnologylab.org/team/alexander-mehler/), email: mehler@em.uni-frankfurt.de
-* [Dr. Wahed Hemati](https://www.texttechnologylab.org/team/wahed-hemati/), email: hemati@em.uni-frankfurt.de
+* [Prof. Dr. Visvanathan Ramesh](http://www.ccc.cs.uni-frankfurt.de/people/), email: mehler@em.uni-frankfurt.de
+* [Martin Mundt](https://martin-mundt.com/), email: mmundt@em.uni-frankfurt.de
 
 **Institutions**
 * **[Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)**
