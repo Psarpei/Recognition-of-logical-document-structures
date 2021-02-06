@@ -8,7 +8,7 @@ Context-free Grammars](https://www.aclweb.org/anthology/2020.lrec-1.650.pdf)
 
 **Instructors**
 * [Prof. Dr. Alexander Mehler](https://www.texttechnologylab.org/team/alexander-mehler/), email: mehler@em.uni-frankfurt.de
-* [Giuseppe Abrami](https://www.texttechnologylab.org/team/giuseppe-abrami/), email: abrami@em.uni-frankfurt.de
+* [Dr. Wahed Hemati](https://www.texttechnologylab.org/team/wahed-hemati/), email: hemati@em.uni-frankfurt.de
 
 **Institutions**
 * **[Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)**
