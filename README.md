@@ -20,7 +20,7 @@ Context-free Grammars](https://www.aclweb.org/anthology/2020.lrec-1.650.pdf)
 
 **Configuration**
 
-Take a look here for the correct conifuration [recurrent neural network grammars](https://github.com/clab/rnng)
+Take a look here for the correct configuration [recurrent neural network grammars](https://github.com/clab/rnng)
 
 ## Project
 The model is able to recognizing the followig logical document structures
